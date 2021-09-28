@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 menu">
+          <img src="images/logo.jpg" alt="logo" id="logo" /><br /><br />
+
+          <a href="#"><img src="images/dashboard.jpg" />Dashboard</a>
+          <a href="#"><img src="images/list.jpg" />Patient List</a>
+          <a href="#"><img src="images/list.jpg" />Doctor List</a>
+          <a href="#"><img src="images/list.jpg" />Nurse List</a>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img src="images/list.jpg" />
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a href="#"><img src="images/dashboard.jpg" />Dashboard</a>
+            <a href="#"><img src="images/list.jpg" />Patient List</a>
+            <a href="#"><img src="images/list.jpg" />Doctor List</a>
+            <a href="#"><img src="images/list.jpg" />Nurse List</a>
+          </div>
+        </div>
+        <div class="col-lg-10 col-xs-12">
+          <div class="row dashboard">
+            <h3>Admin Dashboard</h3>
+            <div class="col-lg-6 col-xs-12 docSpec">
+              <form>
+                <h4>Doctor Specialaization</h4>
+                <label for="fname">Doctor name</label><br />
+                <input
+                  type="text"
+                  class="form-element"
+                  id="fname"
+                  name="fname"
+                /><br />
+                <label for="lname">Specialized in</label><br />
+                <input
+                  type="text"
+                  class="form-element"
+                  id="lname"
+                  name="lname"
+                /><br />
+                <label for="email">Email Id</label><br />
+                <input
+                  type="email"
+                  class="form-element"
+                  id="email"
+                  name="email"
+                /><br />
+                <label for="pwd">Password</label><br />
+                <input
+                  type="password"
+                  class="form-element"
+                  id="pwd"
+                  name="pwd"
+                /><br />
+                <input type="submit" class="submit" value="Submit" />
+              </form>
+            </div>
+            <div class="col-lg-6 col-xs-12 nurseDet">
+              <form>
+                <h4>Nurse Details</h4>
+                <label for="fname">Nurse name</label><br />
+                <input
+                  type="text"
+                  class="form-element"
+                  id="fname"
+                  name="fname"
+                /><br />
+                <label for="email">Email Id</label><br />
+                <input
+                  type="email"
+                  class="form-element"
+                  id="email"
+                  name="email"
+                /><br />
+                <label for="pwd">Password</label><br />
+                <input
+                  type="password"
+                  class="form-element"
+                  id="pwd"
+                  name="pwd"
+                /><br /><br />
+                <input type="submit" class="submit" value="Submit" />
+              </form>
+            </div>
+            <div class="col-lg-6 col-xs-12 nurseDet">
+              <form>
+                <h4>Disease List</h4>
+                <label for="fname">Add new disease</label><br />
+                <input
+                  type="text"
+                  class="form-element"
+                  id="fname"
+                  name="fname"
+                /><br />
+
+                <input type="submit" class="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

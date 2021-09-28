@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+}
+.container {
+  background-color: #02204e;
+  margin: 0;
+  max-width: 100%;
+}
+@media (max-width: 540px) {
+  .menu {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+a {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: white;
+  vertical-align: center;
+}
+a > img {
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.dropdown-menu {
+  background-color: #02204e;
+  max-width: 540px;
+}
+@media (min-width: 576px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+.dashboard {
+  background-color: #1ee0ed;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+form {
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+}
+.form-element {
+  width: 80%;
+  text-align: left;
+}
+.submit {
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #1ee0ed;
+  font-weight: 200;
+  padding: 3px 20px;
+  font-family: Arial Rounded MT Bold;
+  border-radius: 10px;
+}
+#logo {
+  margin-top: 10px;
+  width: 80%;
+  height: auto;
+}
